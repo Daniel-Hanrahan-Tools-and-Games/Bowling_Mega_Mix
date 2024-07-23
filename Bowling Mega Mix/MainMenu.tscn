@@ -1,0 +1,182 @@
+[gd_scene load_steps=3 format=3 uid="uid://1n8nqa8lm2yg"]
+
+[ext_resource type="Script" path="res://MainMenu.cs" id="1_qo7y4"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fftch"]
+font_size = 120
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qo7y4")
+
+[node name="TenPinButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -575.0
+offset_top = 115.0
+offset_right = -415.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Ten Pin Bowling"
+
+[node name="ExitButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -110.0
+offset_top = 211.0
+offset_right = 50.0
+offset_bottom = 274.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Exit"
+
+[node name="DuckPinButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -402.0
+offset_top = 115.0
+offset_right = -242.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "DuckPin Bowling"
+
+[node name="CandlePinButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -230.0
+offset_top = 117.0
+offset_right = -70.0
+offset_bottom = 180.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "CandlePin Bowling"
+
+[node name="FivePinButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -48.0
+offset_top = 115.0
+offset_right = 112.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Five Pin Bowling"
+
+[node name="TexasNinePinButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 130.0
+offset_top = 117.0
+offset_right = 317.0
+offset_bottom = 180.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Texas Nine Pin Bowling"
+
+[node name="HolyRomanNinePinButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 339.0
+offset_top = 117.0
+offset_right = 576.0
+offset_bottom = 180.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Holy Roman Nine Pin Bowling"
+
+[node name="Copyright notice" type="Label" parent="."]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 622.0
+offset_right = 417.0
+offset_bottom = 645.0
+text = "Copyright (C) 2024 Daniel Hanrahan Tools and Games"
+
+[node name="Title Card" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Bowling Mega Mix"
+label_settings = SubResource("LabelSettings_fftch")
+
+[node name="GNU GPL disclaimer" type="Label" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 173.0
+offset_right = 1143.0
+offset_bottom = 326.0
+text = "This program is free software: you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation, either version 3 of the license, or (at your option) any later version.
+This program is distributed in hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details. You should have recieved a copy of the GNU General Public License along with this program.
+ If not, see https://www.gnu.org/licenses
+"
+
+[node name="Creative Commons Attribution-Sharealike disclaimer" type="Label" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 346.0
+offset_right = 1052.0
+offset_bottom = 395.0
+text = "Information just about the stuff in this software not covered by the GNU General Public License version 3:  This work is licensed under 
+Attribution-ShareAlike 4.0 International"
+
+[node name="Game Disclaimer" type="Label" parent="."]
+layout_mode = 0
+offset_left = 678.0
+offset_top = 523.0
+offset_right = 1093.0
+offset_bottom = 624.0
+text = "To Go back to the main menu after a game is over
+the player must exit the game and relaunch the game 
+and the game does not send you
+back to the menu when game is over"
+
+[connection signal="pressed" from="TenPinButton" to="." method="TenPin"]
+[connection signal="pressed" from="ExitButton" to="." method="Exit"]
+[connection signal="pressed" from="DuckPinButton" to="." method="DuckPin"]
+[connection signal="pressed" from="CandlePinButton" to="." method="CandlePin"]
+[connection signal="pressed" from="FivePinButton" to="." method="FivePin"]
+[connection signal="pressed" from="TexasNinePinButton" to="." method="TexasNinePin"]
+[connection signal="pressed" from="HolyRomanNinePinButton" to="." method="HolyRomanNinePin"]

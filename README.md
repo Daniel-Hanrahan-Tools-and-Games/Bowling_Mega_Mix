@@ -2,7 +2,7 @@
 
 This bowling video game has six different types of bowling, 10 Pin, Holy Roman 9 Pin, Texas 9 Pin, 5 Pin, DuckPin, and CandlePin.
 
-w to move the ball left, d to move the ball right and space or left click to launch the ball
+w to move the ball left, d to move the ball right and space or left click to launch the ball, The cursor may need to be on the ball to be launched
 
 Anything not covered by the GNU GPL 3.0: This work is licensed under Attribution-ShareAlike 4.0 International
 

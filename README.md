@@ -12,6 +12,24 @@ Anything not covered by the GNU GPL 3.0: This work is licensed under Attribution
 
 <a href="https://daniel-hanrahan-tools-and-games.github.io/">Home Page</a>
 
+10 Pin Screenshot
+![10PinScreenshot](https://github.com/user-attachments/assets/19549e42-baa9-4545-b656-1d891c4f6885)
+
+DuckPin Screenshot
+![DuckPinScreenshot](https://github.com/user-attachments/assets/5d151844-7f5b-4422-81af-580fdd731ee9)
+
+CandlePin Screenshot
+![CandlePinScreenshot](https://github.com/user-attachments/assets/408dd854-640a-4c8f-9834-8b888f84c87b)
+
+5 Pin Screenshot
+![5PinScreenshot](https://github.com/user-attachments/assets/7cb94cc1-c74f-4f8b-8b49-403c6f507766)
+
+Texas 9 Pin Screenshot
+![Texas9PinScreenshot](https://github.com/user-attachments/assets/76e67380-e3bc-4f39-83e5-9f8824ebcd85)
+
+Holy Roman 9 Pin Screenshot
+![HolyRoman9PinScreenshot](https://github.com/user-attachments/assets/e13ac680-335b-477d-a1af-d700f04676ee)
+
 Contributors needed.
 
 <script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=978127&format=728x90&ga=g"></script>

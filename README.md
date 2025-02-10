@@ -33,6 +33,3 @@ Holy Roman 9 Pin Screenshot
 ![HolyRoman9PinScreenshot](https://github.com/user-attachments/assets/e13ac680-335b-477d-a1af-d700f04676ee)
 
 Contributors needed.
-
-<script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=978127&format=728x90&ga=g"></script>
-<noscript><a href="https://yllix.com/publishers/978127" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/728x90.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>

@@ -8,8 +8,6 @@ Anything not covered by the GNU GPL 3.0: This work is licensed under Attribution
 
 You need to compile this project, and to compile this project you first need to have the godot engine with C#/.NET support which the download link is underneath this line, second you put the Bowling Mega Mix folder on your local machine, third you need to open that same folder in the engine, fourth compile the project either using the play button or something else.
 
-You need to compile this project, and to compile this project you first need to have the godot engine with C#/.NET support which the download link is underneath this line, second you put the Untitled Knight Game folder on your local machine, third you need to open that same folder in the engine, fourth compile the project either using the play button or something else.
-
 To put new files in this repository you need github desktop, Here is a link to ubuntu based linux distro version of github desktop: https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1 and whatever you do, do not use gitkraken as your github desktop replacement or linux version, it does not work.
 
 Before you get the engine or compiling the project, you are going to need the .net sdk and runtimes and you may want to install an older version because sometimes the latest version does not work and here is a link to the directions on how you install it on linux: https://learn.microsoft.com/en-us/dotnet/core/install/linux?WT.mc_id=dotnet-35129-website, to install an older version you change the version number to a lower number in the terminal.

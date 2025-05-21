@@ -1,0 +1,131 @@
+[gd_scene load_steps=16 format=3 uid="uid://dapc7putm37hq"]
+
+[ext_resource type="Texture2D" uid="uid://bkp03aaoo23di" path="res://wood texture.png" id="1_hapb5"]
+[ext_resource type="Script" path="res://CandlePinBall.cs" id="3_58v0n"]
+[ext_resource type="PackedScene" uid="uid://detvmpahh3vs2" path="res://Collision and Models/CandlepinBowlingPin.tscn" id="3_lhtgf"]
+[ext_resource type="Script" path="res://ScoreLayer.cs" id="4_wl8p6"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_bhfdg"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_1m886"]
+sky_material = SubResource("ProceduralSkyMaterial_bhfdg")
+
+[sub_resource type="Environment" id="Environment_5wyjd"]
+background_mode = 2
+sky = SubResource("Sky_1m886")
+tonemap_mode = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mfw6m"]
+albedo_texture = ExtResource("1_hapb5")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_b8m45"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_rk181"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_riqj2"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_e7u0k"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_i5sxv"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_1peay"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_aapum"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_5wyjd")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00404572, 0.542637, 2.00754)
+
+[node name="BowlingLane" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 4.94596, 0, 0, -4.05437)
+material_override = SubResource("StandardMaterial3D_mfw6m")
+mesh = SubResource("PlaneMesh_b8m45")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="BowlingLane"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BowlingLane/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_rk181")
+
+[node name="GutterArea" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0203204, -0.0469191, 18.7863, 3.7209, -0.0418754, 0.0656497, 0.155168, 0.998021, 0.885939, 0.105, 0.015, -10.783)
+visible = false
+mesh = SubResource("PlaneMesh_riqj2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="GutterArea"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GutterArea/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_e7u0k")
+
+[node name="PowerMeter" type="Label" parent="."]
+offset_left = 817.0
+offset_top = 625.0
+offset_right = 1149.0
+offset_bottom = 648.0
+text = "The total score must be tablulated by hand"
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.18819, 1.05294)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+script = ExtResource("3_58v0n")
+
+[node name="Ball" type="MeshInstance3D" parent="RigidBody3D"]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0.0120127, 0.139391, 0.660987)
+mesh = SubResource("SphereMesh_i5sxv")
+skeleton = NodePath("../..")
+
+[node name="Area3D" type="Area3D" parent="RigidBody3D/Ball"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D/Ball/Area3D"]
+shape = SubResource("SphereShape3D_1peay")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("SphereShape3D_aapum")
+
+[node name="Pins" type="Node" parent="."]
+
+[node name="CandlepinBowlingPin" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.009, 0.395, -7.387)
+
+[node name="CandlepinBowlingPin2" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.375, 0.395, -7.707)
+
+[node name="CandlepinBowlingPin3" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.354, 0.395, -7.707)
+
+[node name="CandlepinBowlingPin4" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.004, 0.395, -8.052)
+
+[node name="CandlepinBowlingPin5" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.656, 0.395, -8.052)
+
+[node name="CandlepinBowlingPin6" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.912, 0.395, -8.398)
+
+[node name="CandlepinBowlingPin8" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.375, 0.395, -8.398)
+
+[node name="CandlepinBowlingPin7" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.354, 0.395, -8.398)
+
+[node name="CandlepinBowlingPin9" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.93, 0.395, -8.398)
+
+[node name="CandlepinBowlingPin10" parent="Pins" instance=ExtResource("3_lhtgf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.648, 0.395, -8.052)
+
+[node name="ScoreLayer" type="CanvasLayer" parent="."]
+script = ExtResource("4_wl8p6")
+
+[node name="Score" type="Label" parent="ScoreLayer"]
+offset_right = 52.0
+offset_bottom = 23.0
+text = "Score: "

@@ -1,0 +1,45 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1747801915
+5PinLane.tscn::PackedScene::3942316642391958617::1739200366::0::1::::<><>::uid://bkp03aaoo23di::::res://wood texture.png<>res://FivePinBall.cs<>uid://b73u0jm0kbjst::::res://Collision and Models/FivePinFivePin.tscn<>uid://dlqhsiir4mg4::::res://Collision and Models/FivePinThreePins.tscn<>uid://dxw7g6ikk3oeq::::res://Collision and Models/FivePinTwoPins.tscn<>res://ScoreLayer.cs
+10PinLane.tscn::PackedScene::2665858726139910562::1747785890::0::1::::<><>::uid://bkp03aaoo23di::::res://wood texture.png<>res://TenPinBall.cs<>res://ScoreLayer.cs<>uid://blw6wp04oyx5m::::res://Collision and Models/RegularBowlingPin.tscn
+CandlePinBall.cs::CSharpScript::-1::1739200366::0::1::::<>RigidBody3D<>::
+CandlePinLane.tscn::PackedScene::7190407116407476734::1739200366::0::1::::<><>::uid://bkp03aaoo23di::::res://wood texture.png<>res://CandlePinBall.cs<>uid://detvmpahh3vs2::::res://Collision and Models/CandlepinBowlingPin.tscn<>res://ScoreLayer.cs
+DuckPinBall.cs::CSharpScript::-1::1739200366::0::1::::<>RigidBody3D<>::
+DuckPinLane.tscn::PackedScene::5759403338077209995::1739200366::0::1::::<><>::uid://bkp03aaoo23di::::res://wood texture.png<>res://DuckPinBall.cs<>uid://b3fn62aj0fdwe::::res://Collision and Models/DuckpinBowlingPin.tscn<>res://ScoreLayer.cs
+FivePinBall.cs::CSharpScript::-1::1739200366::0::1::::<>RigidBody3D<>::
+HolyRoman9PinLane.tscn::PackedScene::8367801531833785785::1739200366::0::1::::<><>::uid://bkp03aaoo23di::::res://wood texture.png<>res://HolyRomanNinePinBall.cs<>uid://b3fn62aj0fdwe::::res://Collision and Models/DuckpinBowlingPin.tscn<>res://ScoreLayer.cs
+HolyRomanNinePinBall.cs::CSharpScript::-1::1739200366::0::1::::<>RigidBody3D<>::
+icon.svg::CompressedTexture2D::4217133684524653469::1739200366::1746916621::1::::<><>::
+MainMenu.cs::CSharpScript::-1::1747801575::0::1::::<>Control<>::
+MainMenu.tscn::PackedScene::1853774563361850706::1747801818::0::1::::<><>::res://MainMenu.cs
+ScoreLayer.cs::CSharpScript::-1::1739200366::0::1::::<>CanvasLayer<>::
+TenPinBall.cs::CSharpScript::-1::1739200366::0::1::::<>RigidBody3D<>::
+Texas9PinLane.tscn::PackedScene::3291780961004285136::1739200366::0::1::::<><>::uid://bkp03aaoo23di::::res://wood texture.png<>res://TexasNinePinBall.cs<>uid://bmcoojxwc2vg::::res://Collision and Models/TexasNinePinBowlingPinRed.tscn<>uid://cbx7bf577ypxb::::res://Collision and Models/TexasNinePinBowlingPin.tscn<>res://ScoreLayer.cs
+TexasNinePinBall.cs::CSharpScript::-1::1739200366::0::1::::<>RigidBody3D<>::
+wood texture.png::CompressedTexture2D::3120842714088718550::1739200366::1746916621::1::::<><>::
+::res://addons/::1746918120
+::res://addons/lua-gdextension/::1746918123
+CHANGELOG.md::TextFile::-1::1741536970::0::1::::<><>::
+icon.png::CompressedTexture2D::5350699325676821864::1741536970::1746918123::1::::<><>::
+luagdextension.gdextension::GDExtension::-1::1741536970::0::1::::<><>::
+LuaScript_icon.svg::CompressedTexture2D::7503607513779759464::1741536970::1746918123::1::::<><>::
+README.md::TextFile::-1::1741536970::0::1::::<><>::
+::res://addons/lua-gdextension/build/::1746918120
+::res://Collision and Models/::1747801201
+CandlepinBowlingPin.glb::PackedScene::1273282569210878262::1739200366::1746916624::1::::<><>::uid://c0mteipey72mc::::res://Collision and Models/CandlepinBowlingPin_white texture.png
+CandlepinBowlingPin.tscn::PackedScene::7480537877512302851::1747801201::0::1::::<><>::res://Collision and Models/Collision.cs<>uid://c0mteipey72mc::::res://Collision and Models/CandlepinBowlingPin_white texture.png
+CandlepinBowlingPin_white texture.png::CompressedTexture2D::6553496200997881926::1739200366::1746916621::1::::<><>::
+Collision.cs::CSharpScript::-1::1739200366::0::1::::<>Area3D<>::
+DuckpinBowlingPin.glb::PackedScene::5489225012137615452::1739200366::1746916625::1::::<><>::uid://cbs0bcg015lxy::::res://Collision and Models/DuckpinBowlingPin_white texture.png
+DuckpinBowlingPin.tscn::PackedScene::4362876293418304340::1739200366::0::1::::<><>::res://Collision and Models/Collision.cs<>uid://cbs0bcg015lxy::::res://Collision and Models/DuckpinBowlingPin_white texture.png
+DuckpinBowlingPin_white texture.png::CompressedTexture2D::4881708836697726722::1739200366::1746916621::1::::<><>::
+FivePinFivePin.tscn::PackedScene::4691525734323866339::1739200366::0::1::::<><>::res://Collision and Models/Collision.cs<>uid://bk5pblxlv12j5::::res://Collision and Models/RegularBowlingPin.glb
+FivePinThreePins.tscn::PackedScene::234259616816445329::1739200366::0::1::::<><>::res://Collision and Models/Collision.cs<>uid://bk5pblxlv12j5::::res://Collision and Models/RegularBowlingPin.glb
+FivePinTwoPins.tscn::PackedScene::8820977064926443536::1739200366::0::1::::<><>::res://Collision and Models/Collision.cs<>uid://bk5pblxlv12j5::::res://Collision and Models/RegularBowlingPin.glb
+RegularBowlingPin.glb::PackedScene::3151153607196879356::1739200366::1746916627::1::::<><>::uid://djx18i60qgv0f::::res://Collision and Models/RegularBowlingPin_white texture.png
+RegularBowlingPin.tscn::PackedScene::3205836616350109924::1739200366::0::1::::<><>::res://Collision and Models/Collision.cs<>uid://bk5pblxlv12j5::::res://Collision and Models/RegularBowlingPin.glb
+RegularBowlingPinRed.glb::PackedScene::2966058846664935245::1739200366::1746916629::1::::<><>::uid://cgdwxvkd2c585::::res://Collision and Models/RegularBowlingPinRed_red texture.png
+RegularBowlingPinRed_red texture.png::CompressedTexture2D::5201545528188149528::1739200366::1746916621::1::::<><>::
+RegularBowlingPin_white texture.png::CompressedTexture2D::7840080374409025083::1739200366::1746916621::1::::<><>::
+TexasNinePinBowlingPin.tscn::PackedScene::4892455939388582027::1739200366::0::1::::<><>::res://Collision and Models/Collision.cs<>uid://bk5pblxlv12j5::::res://Collision and Models/RegularBowlingPin.glb
+TexasNinePinBowlingPinRed.tscn::PackedScene::95108562091617612::1739200366::0::1::::<><>::res://Collision and Models/Collision.cs<>uid://cgdwxvkd2c585::::res://Collision and Models/RegularBowlingPinRed_red texture.png

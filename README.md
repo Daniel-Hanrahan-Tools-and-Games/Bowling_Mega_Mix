@@ -6,7 +6,7 @@ w to move the ball left, d to move the ball right and space or left click to lau
 
 Anything not covered by the GNU GPL 3.0: This work is licensed under Attribution-ShareAlike 4.0 International
 
-You need to compile this project, and to compile this project you first need to have the engine with C# support which the download link is underneath this line, second you put the Bowling Mega Mix folder on your local machine, third you need to open that same folder in the engine, fourth compile the project either using the play button or something else.
+You need to compile this project, and to compile this project you first need to have the godot engine with C#/.NET support which the download link is underneath this line, second you put the Bowling Mega Mix folder on your local machine, third you need to open that same folder in the engine, fourth compile the project either using the play button or something else.
 
 You need to compile this project, and to compile this project you first need to have the godot engine with C#/.NET support which the download link is underneath this line, second you put the Untitled Knight Game folder on your local machine, third you need to open that same folder in the engine, fourth compile the project either using the play button or something else.
 

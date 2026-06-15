@@ -36,6 +36,8 @@ To use mods you use the version 2 or later folder, you drag the mod folder in th
 
 <a href="https://daniel-hanrahan-tools-and-games.github.io/Bowling_Mega_Mix_VPLS/">Visual Programming Language System Version ReadMe Page</a>
 
+<a href="https://daniel-hanrahan-tools-and-games.github.io/MGSInfo.html">Information On Multi-Game-Systems</a>
+
 <a href="https://godotengine.org/download/archive/4.3-stable/">This game is made in Godot 4.3 .NET version</a>
 
 <a href="https://github.com/Daniel-Hanrahan-Tools-and-Games/Bowling_Mega_Mix">Repository Page</a>
